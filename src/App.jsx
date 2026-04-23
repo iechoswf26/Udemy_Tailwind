@@ -1,11 +1,9 @@
-import Typography from "./4_Typography/Typography.jsx";
+import WidthAndHeight from "./5_WidthAndHeight/WidthAndHeight.jsx";
 
 const App = () => {
   return (
       <div>
-      <Typography/>
-
-
+          <WidthAndHeight/>
       </div>
   )
 }

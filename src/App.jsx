@@ -1,9 +1,9 @@
-import LayoutPosition from "./6_Layout_Position/LayoutPosition.jsx";
+import BackgroundShadows from "./7_Background_And_Shadows/BackgroundShadows.jsx";
 
 const App = () => {
   return (
       <div>
-          <LayoutPosition/>
+          <BackgroundShadows/>
 
       </div>
   )

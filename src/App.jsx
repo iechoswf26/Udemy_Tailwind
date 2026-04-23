@@ -1,9 +1,9 @@
-import BackgroundShadows from "./7_Background_And_Shadows/BackgroundShadows.jsx";
+import Borders from "./8_Borders/Borders.jsx";
 
 const App = () => {
   return (
       <div>
-          <BackgroundShadows/>
+          <Borders/>
 
       </div>
   )

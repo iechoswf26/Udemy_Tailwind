@@ -1,9 +1,10 @@
-import ContainerSpacing from "./3_Container_Spacing/ContainerSpacing.jsx";
+import Typography from "./4_Typography/Typography.jsx";
 
 const App = () => {
   return (
       <div>
-          <ContainerSpacing/>
+      <Typography/>
+
 
       </div>
   )

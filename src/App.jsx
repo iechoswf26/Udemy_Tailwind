@@ -1,9 +1,9 @@
-import Borders from "./8_Borders/Borders.jsx";
+import Filters from "./9_Filters/Filters.jsx";
 
 const App = () => {
   return (
       <div>
-          <Borders/>
+          <Filters/>
 
       </div>
   )

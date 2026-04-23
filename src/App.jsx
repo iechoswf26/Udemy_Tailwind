@@ -1,9 +1,10 @@
-import WidthAndHeight from "./5_WidthAndHeight/WidthAndHeight.jsx";
+import LayoutPosition from "./6_Layout_Position/LayoutPosition.jsx";
 
 const App = () => {
   return (
       <div>
-          <WidthAndHeight/>
+          <LayoutPosition/>
+
       </div>
   )
 }

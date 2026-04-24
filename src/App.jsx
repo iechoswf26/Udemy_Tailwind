@@ -1,9 +1,9 @@
-import Filters from "./9_Filters/Filters.jsx";
+import Interactivity from "./10_Interactivity/Interactivity.jsx";
 
 const App = () => {
   return (
       <div>
-          <Filters/>
+          <Interactivity/>
 
       </div>
   )

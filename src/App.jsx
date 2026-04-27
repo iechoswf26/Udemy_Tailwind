@@ -1,9 +1,9 @@
-import Interactivity from "./10_Interactivity/Interactivity.jsx";
+import Breakpoints from "./11_Breakpoints/Breakpoints.jsx";
 
 const App = () => {
   return (
       <div>
-          <Interactivity/>
+          <Breakpoints/>
 
       </div>
   )

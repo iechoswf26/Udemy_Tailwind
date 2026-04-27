@@ -1,10 +1,10 @@
-import Columns from "./12_Columns/Columns.jsx";
+import Flexbox from "./13_Flexbox/Flexbox.jsx";
 
 
 const App = () => {
   return (
       <div>
-          <Columns/>
+          <Flexbox/>
 
       </div>
   )

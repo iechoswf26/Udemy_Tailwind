@@ -1,9 +1,10 @@
-import Breakpoints from "./11_Breakpoints/Breakpoints.jsx";
+import Columns from "./12_Columns/Columns.jsx";
+
 
 const App = () => {
   return (
       <div>
-          <Breakpoints/>
+          <Columns/>
 
       </div>
   )

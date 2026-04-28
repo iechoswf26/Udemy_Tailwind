@@ -1,10 +1,10 @@
-import Transform_Transition from "./15_Transform_Transition/Transform_Transition.jsx";
+import Animation from "./16_Animation/Animation.jsx";
 
 
 const App = () => {
   return (
       <div>
-          <Transform_Transition/>
+          <Animation/>
 
       </div>
   )

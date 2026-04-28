@@ -5,9 +5,28 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Tapestry&display=swap" rel="stylesheet">
+<!--    <link rel="preconnect" href="https://fonts.googleapis.com">-->
+<!--    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
+<!--    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Tapestry&display=swap" rel="stylesheet">-->
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            animation: {
+              'spin-slow': 'spin 3s linear infinite',
+                'wiggle': 'wiggle 1s ease-in-out infinite'
+            },
+              keyframes: {
+                wiggle: {
+                    '0%, 100%': {transform: 'rotate(-12deg)'},
+                    '50%': {transform: 'rotate(12deg)'}
+                }
+              }
+          }
+        }
+      }
+    </script>
 
 <!--    <script src="https://cdn.tailwindcss.com"></script>-->
 
@@ -23,9 +42,12 @@
 <!--      }-->
 <!--    </script>-->
 
+
+
     <title>tailwind-part-1</title>
 
     <link href="/src/style.css" rel="stylesheet">
+
   </head>
   <body>
     <div id="root"></div>

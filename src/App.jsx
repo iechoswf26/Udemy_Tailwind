@@ -1,10 +1,10 @@
-import Flexbox from "./13_Flexbox/Flexbox.jsx";
+import Grid from "./14_Grid/Grid.jsx";
 
 
 const App = () => {
   return (
       <div>
-          <Flexbox/>
+          <Grid/>
 
       </div>
   )
